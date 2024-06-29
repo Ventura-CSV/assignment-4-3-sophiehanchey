@@ -3,7 +3,7 @@ def main():
     result = []
     
     # do the division 
-    while number >= 2:
+    while number > 0:
         result.append(number % 2)
         number = number // 2
 
